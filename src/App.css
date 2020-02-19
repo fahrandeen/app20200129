@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.table th, .table td  {
+  border: 1px solid  #282c34;
+
+}
+
+.header{
+  margin-top:20px;
+  margin-bottom:10px;
+  padding-left: 50px;
+}
+.header a{
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.header a.active{
+  font-weight: bold;
+  
+}
+.form-check-input {
+  position: absolute !important;
+  margin-top: 0.45rem !important;
+  margin-left: 0.75rem !important;
+}
+.navbar-nav {
+  display: contents !important;
+}

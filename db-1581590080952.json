@@ -1,0 +1,24 @@
+{
+  "students": [
+    {
+      "studentName": "Fahran",
+      "studentAddress": "Panadura",
+      "studentStatus": true
+    },
+    {
+      "studentName": "Muzi",
+      "studentAddress": "Eluvila",
+      "studentStatus": true
+    },
+    {
+      "studentName": "Hamdhy",
+      "studentAddress": "Panadura",
+      "studentStatus": false
+    },
+    {
+      "studentName": "Haifa",
+      "studentAddress": "Eluvila",
+      "studentStatus": false
+    }
+  ]
+}
