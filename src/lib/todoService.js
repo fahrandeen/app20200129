@@ -15,6 +15,9 @@ export const createStudent = (student) =>{
         },
         body:JSON.stringify(student)
     }).then(res => res.json())
+    // .catch(err => {
+    //     console.log("error : "+err)
+    // })
 }
 
 export const saveStudent = (student) =>{
