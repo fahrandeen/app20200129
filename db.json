@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 4,
+      "studentName": "Haifa",
+      "studentAddress": "Eluvila",
+      "studentStatus": false
+    },
+    {
+      "id": 7,
+      "studentName": "Hamdhy",
+      "studentAddress": "Eluvila",
+      "studentStatus": true
+    },
+    {
+      "id": 8,
+      "studentName": "Mushrifa",
+      "studentAddress": "Eluvila",
+      "studentStatus": false
+    }
+  ]
+}

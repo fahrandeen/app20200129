@@ -35,9 +35,9 @@ class App extends Component {
   componentDidMount() {
     loadStudents()
       .then(students => this.setState({ students }))
-    
-    .then(loadEmployees()
-      .then(employees => this.setState({ employees: employees })))
+
+    loadEmployees()
+      .then(employees => this.setState({ employees: employees }))
 
   }
 
@@ -64,7 +64,7 @@ class App extends Component {
       studentStatus: false
     })
     createStudent(newStudent)
-      .then(this.showTempMessage('Student Added'))
+      .then(() => this.showTempMessage('Student Added'))
   }
 
   handleSubmitEmployee = (evt) => {
