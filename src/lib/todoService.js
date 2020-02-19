@@ -39,7 +39,7 @@ export const destroyStudent = (id) =>{
 }
 
 
-const baseUrl1 = "http://dummy.restapiexample.com/api/v1/employees"
+const baseUrl1 = "https://dummy.restapiexample.com/api/v1/employees"
 export const loadEmployees = () =>{
     return fetch(baseUrl1)
     .then(res => res.json())
