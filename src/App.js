@@ -64,7 +64,7 @@ class App extends Component {
       studentStatus: false
     })
     createStudent(newStudent)
-      .then(() => this.showTempMessage('Student Added'))
+      .then(this.showTempMessage('Student Added'))
   }
 
   handleSubmitEmployee = (evt) => {
