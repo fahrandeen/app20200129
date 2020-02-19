@@ -35,9 +35,9 @@ class App extends Component {
   componentDidMount() {
     loadStudents()
       .then(students => this.setState({ students }))
-
-    loadEmployees()
-      .then(employees => this.setState({ employees: employees }))
+    
+    .then(loadEmployees()
+      .then(employees => this.setState({ employees: employees })))
 
   }
 
